@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&mt TILDE Q         &kp W         &mt F2 E      &kp R                        &kp T                                                          &mt ASTERISK Y  &mt LEFT_PARENTHESIS U  &lt 5 I    &mt F9 O  &mt F10 P
-&mt LEFT_CONTROL A  &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp DEL        &kp H           &kp J                   &kp K      &kp L     &kp MINUS
-&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                        &kp B        &mt SEMICOLON TAB                  &kp COLON      &kp N           &kp M                   &kp COMMA  &kp DOT   &kp SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                                  &kp SQT
+&mt TILDE Q         &kp W         &mt F2 E      &kp R                        &kp T                                                                 &mt ASTERISK Y  &mt LEFT_PARENTHESIS U  &lt 5 I    &mt F9 O  &mt F10 P
+&mt LEFT_CONTROL A  &kp S         &kp D         &kp F                        &kp G               &kp LS(LG(S))                      &kp DEL        &kp H           &kp J                   &kp K      &kp L     &kp MINUS
+&mt LEFT_SHIFT Z    &kp X         &kp C         &kp V                        &lt_to_layer_0 6 B  &mt SEMICOLON TAB                  &kp COLON      &kp N           &kp M                   &kp COMMA  &kp DOT   &kp SLASH
+&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 4 INT_HENKAN  &lt 2 SPACE         &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                                                  &mt RIGHT_SHIFT SQT
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans    &kp UP_ARROW  &trans     &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans    &trans        &trans     &trans
+&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -136,7 +136,7 @@
             >;
         };
 
-        layer_6 {
+        BT {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
