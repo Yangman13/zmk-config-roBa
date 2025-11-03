@@ -35,6 +35,12 @@
         device = <&trackball>;
 
         input-processors = <&zip_temp_layer 4 10000>;
+
+        snipe {
+            layers = <2>;
+            input-processors = <&zip_xy_scaler 1 3>;
+        };
+
     };
 };
 
