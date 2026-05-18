@@ -153,9 +153,9 @@
             bindings = <&kp>, <&kp_exit_AML>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <500>;
             flavor = "balanced";
-            quick-tap-ms = <300>;
+            quick-tap-ms = <500>;
         };
 
         encoder_msc_down_up: encoder_msc_down_up {
