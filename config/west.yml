@@ -32,8 +32,8 @@ manifest:
       revision: main
 
     - name: zmk-module-runtime-input-processor
-      remote: cormoran
-      revision: url:https://github.com/Yangman13/zmk-module-runtime-input-processor
+      url: https://github.com/Yangman13/zmk-module-runtime-input-processor
+      revision: main
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
