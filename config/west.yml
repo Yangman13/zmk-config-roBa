@@ -33,7 +33,7 @@ manifest:
 
     - name: zmk-module-runtime-input-processor
       remote: cormoran
-      revision: v0.3
+      revision: v0.3-branch
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
