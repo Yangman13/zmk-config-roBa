@@ -18,7 +18,7 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget  # <-- new entry
       url: https://github.com/caksoylar/zmk-rgbled-widget
-      revision: v0.3           # MUST match your ZMK version!
+      revision: main           # MUST match your ZMK version!
     - name: zmk-module-ble-management
       remote: cormoran
       revision: main
