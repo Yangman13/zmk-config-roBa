@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20.0)
 
-# ビルド直前に問題のファイルを自動で書き換える処理
+# ビルド直前に問題のファイルを自動修正するスクリプト
 set(TARGET_FILE "${WEST_TOPDIR}/zmk-module-runtime-input-processor/src/pointing/input_processor_runtime.c")
 
 if(EXISTS ${TARGET_FILE})
