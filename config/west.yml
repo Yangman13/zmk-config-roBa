@@ -21,16 +21,19 @@ manifest:
       revision: v0.3           # MUST match your ZMK version!
     - name: zmk-module-ble-management
       remote: cormoran
-      revision: main
+      revision: f69d3b1e3f84f09d84c6bc36ca028723ba85d1c2
+
     - name: zmk-module-battery-history
       remote: cormoran
-      revision: main
+      revision: 307755d9d784dfbde3f360cbdf0fbf3b3f2e1759
+
     - name: zmk-module-settings-rpc
       remote: cormoran
-      revision: main
+      revision: ad1c995eb2bfda069dfb489d8199b517e6005574
+
     - name: zmk-module-runtime-input-processor
       remote: cormoran
-      revision: main
+      revision: 1b87328df19da036a1170b0cb046dfd860d707c7
     - name: zmk-behavior-runtime-sensor-rotate
       remote: cormoran
       revision: main
